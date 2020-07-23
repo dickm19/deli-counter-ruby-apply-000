@@ -49,4 +49,10 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
+def ticket_system()
+  tickets = 1
+  puts "Your ticket number is #{tickets}"
+  tickets += 1
+end
   
